@@ -1,0 +1,23 @@
+.main {
+  height: 600px;
+  display: flex;
+  max-width: 1400px;
+  margin: 5% 2%;
+}
+
+.activities-grid {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 80%;
+  height: 600px;
+  max-width: 800px;
+}
+
+@media only screen and (max-width: 784px) {
+  .main {
+    flex-direction: column;
+  }
+  .activities-grid {
+    width: 100%;
+  }
+}
