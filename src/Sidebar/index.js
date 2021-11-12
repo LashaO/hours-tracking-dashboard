@@ -17,19 +17,19 @@ function index({ period, setPeriod }) {
       <div className="sidebar-period">
         <ul>
           <li
-            className={`${period == "daily" ? "active" : ""}`}
+            className={`${period === "daily" ? "active" : ""}`}
             onClick={() => setPeriod("daily")}
           >
             Daily
           </li>
           <li
-            className={`${period == "weekly" ? "active" : ""}`}
+            className={`${period === "weekly" ? "active" : ""}`}
             onClick={() => setPeriod("weekly")}
           >
             Weekly
           </li>
           <li
-            className={`${period == "monthly" ? "active" : ""}`}
+            className={`${period === "monthly" ? "active" : ""}`}
             onClick={() => setPeriod("monthly")}
           >
             Monthly
